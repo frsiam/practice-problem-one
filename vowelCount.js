@@ -19,7 +19,9 @@ function countVowel(sentence){
     let count = 0;
     for(let i = 0; i < sentence.length; i++){
         let letter = sentence[i].toLowerCase();
-        
+        if(vowels.indexOf(letter) !=-1){
+            count++;
+        }
     }
     return count;
 }
