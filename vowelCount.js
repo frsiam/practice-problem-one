@@ -25,4 +25,4 @@ function countVowel(sentence){
     }
     return count;
 }
-console.log(countVowel('Hello How are YOU ?'));
+console.log(countVowel('A Quick brown fox jump over the lazy dog'));
