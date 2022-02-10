@@ -3,7 +3,8 @@
 function countVowel(sentence){
     let count = 0;
     for(let i = 0; i < sentence.length; i++){
-        console.log(i);
+        let letter = sentence[i];
+        console.log(letter);
     }
     return count;
 }
